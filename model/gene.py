@@ -9,7 +9,7 @@ class Gene:
     Chromosome: int
 
     def __str__(self):
-        return f"{self.GeneID} - {self.Function} | Ess.: {self.Essential}, Chrom.: {self.Chromosome}"
+        return f"{self.GeneID}"
 
     def __hash__(self):
         return hash((self.GeneID, self.Function))
